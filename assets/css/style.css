@@ -6,7 +6,7 @@
 * {
     margin: 0;
     max-width: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -105,4 +105,48 @@ nav {
 .section-content h1 {
     font-size: 50px;
     font-weight: 700 !important;
+}
+
+.work-with-us {
+    padding: 150px;
+    color: black;
+    display: flex;
+}
+
+.heading h1 { 
+    text-transform: uppercase !important;
+}
+
+.heading h5 { 
+    text-transform: uppercase !important;
+}
+
+.column {
+    width: 50%;
+    padding: 0, 50, 0px;
+}
+
+.paragraph {
+    padding-top: 20px;
+}
+
+.employees-image {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.active-icon {
+    background-color: #9bc97e;
+}
+
+.row {
+    display: flex;
+}
+
+.features-icons {
+    margin: 20px;
+}
+
+.features-icons img {
+    width: 150px;
 }
